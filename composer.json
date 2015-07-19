@@ -1,0 +1,12 @@
+{
+  "name": "roobre/telegramBotApi",
+  "description": "Client to interface with Telegram's Bot API",
+  "minimum-stability": "stable",
+  "license": "AGPL",
+  "authors": [
+    {
+      "name": "Roberto \"Roobre\" Santalla",
+      "email": "roobre@roobre.es"
+    }
+  ]
+}
