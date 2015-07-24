@@ -8,5 +8,9 @@
       "name": "Roberto \"Roobre\" Santalla",
       "email": "roobre@roobre.es"
     }
-  ]
+  ],
+  "autoload" : {
+    "psr-0": { "TelegramBotApi": "" }
+  }
 }
+
