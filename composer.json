@@ -1,7 +1,7 @@
 {
   "name": "roobre/telegram-bot-api",
   "description": "Client to interface with Telegram's Bot API",
-  "minimum-stability": "dev",
+  "minimum-stability": "dev-master",
   "license": "AGPLv3",
   "authors": [
     {
