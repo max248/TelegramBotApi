@@ -64,6 +64,7 @@ class TelegramBotApi {
 
         if ($params) {
             $requestOptions['http']['method'] = 'POST';
+            $requestOptions['http']['header'] = "Content-type:application/json\r\n";
             $requestOptions['http']['content'] = json_encode($params);
         } else {
             $requestOptions['http']['method'] = 'GET';
