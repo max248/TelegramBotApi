@@ -55,7 +55,7 @@ class TelegramBotApi {
             throw new \Exception("The specified method '$name' is not a valid Telegram endpoint.");
         }
 
-        return $this->request($name, $args ? $args[0] : null);
+        return $this->request($name, isset($args[0]) ? $args[0] : null);
     }
 
 
